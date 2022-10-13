@@ -1,0 +1,62 @@
+@font-face {
+  font-style: normal;
+  font-weight: bold;
+  src: url('./q-custom-font/persian/IRANSansWeb(FaNum)_Bold.eot');
+  src: url('./q-custom-font/persian/IRANSansWeb(FaNum)_Bold.eot'),
+  url('./q-custom-font/persian/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'), url('./q-custom-font/persian/IRANSansWeb(FaNum)_Bold.woff') format('woff'),
+  url('./q-custom-font/persian/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+
+}
+@font-face {
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: 500;
+  src:url('./q-custom-font/persian/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),
+  url('./q-custom-font/persian/IRANSansWeb(FaNum)_Medium.woff') format('woff'),
+  url('./q-custom-font/persian/IRANSansWeb(FaNum)_Medium.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./q-custom-font/persian/IRANSansWeb(FaNum)_Light.eot');
+  src: url('./q-custom-font/persian/IRANSansWeb(FaNum)_Light.eot') format('eot'),
+  url('./q-custom-font/persian/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),
+  url('./q-custom-font/persian/IRANSansWeb(FaNum)_Light.woff') format('woff'),
+  url('./q-custom-font/persian/IRANSansWeb(FaNum)_Light.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./q-custom-font/persian/IRANSansWeb(FaNum)_UltraLight.eot');
+  src: url('./q-custom-font/persian/IRANSansWeb(FaNum)_UltraLight.eot') format('eot'),
+  url('./q-custom-font/persian/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),
+  url('./q-custom-font/persian/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),
+  url('./q-custom-font/persian/IRANSansWeb(FaNum)_UltraLight.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'IRANSans';
+  font-style: normal;
+  font-weight: normal;
+  src:url('./q-custom-font/persian/IRANSansWeb(FaNum).woff2') format('woff2'),
+  url('./q-custom-font/persian/IRANSansWeb(FaNum).woff') format('woff'),
+  url('./q-custom-font/persian/IRANSansWeb(FaNum).ttf') format('ttf');
+}
+@font-face {
+  font-family: 'IRANSans-Standard';
+  src: url('./q-custom-font/iransans/IRANSans-Light.eot');
+  src: url('./q-custom-font/iransans/IRANSans-Light.eot') format('eot'),
+  url('./q-custom-font/iransans/IRANSans-Light.woff2') format('woff2'),
+  url('./q-custom-font/iransans/IRANSans-Light.woff') format('woff'),
+  url('./q-custom-font/iransans/IRANSans-Light.ttf') format('ttf'),
+  url('./q-custom-font/iransans/IRANSans-Light.svg#IRANSans-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+.iran-sans{
+  font-family: 'IRANSans';
+}
+body{
+  font-family: 'IRANSans'
+}
