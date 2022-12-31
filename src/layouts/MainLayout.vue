@@ -75,6 +75,24 @@ setup () {
   to:'/skills'
 },
 {
+  icon:'',
+  label:"تحصیلات",
+  separator: false,
+  to:'/education'
+},
+{
+  icon:'',
+  label:'سابقه کار',
+  separator:false,
+  to:'/experience'
+},
+{
+  icon:'',
+  label:'نمونه کار',
+  separator:false,
+  to:'/portfolio'
+},
+{
   icon: 'accessibility',
   label: 'رزومه',
   separator: false,

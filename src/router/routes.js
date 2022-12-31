@@ -23,6 +23,18 @@ const routes = [
       {
         path: '/resume',
         component: () => import('pages/resume')
+      },
+      {
+        path: '/education',
+        component: () => import('pages/education')
+      },
+      {
+        path: '/experience',
+        component: () => import('pages/experience')
+      },
+      {
+        path: '/portfolio',
+        component: () => import('pages/portfolio')
       }
     ]
   },
